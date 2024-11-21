@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+nav{
+    background: linear-gradient(to right, #b2d6d6, white);
+    padding: 0.5rem;   
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+   justify-content: flex-end;
+    list-style: none;
+
+
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: navy;
+    padding: 0.5rem 1rem;
+    
+}
+
+nav ul li a:hover{
+    background-color: navy;
+    border-radius: 4px;
+    color: aliceblue;
+    
+}
+
+.menu-toggle{
+    color: #b2d6d6;
+    cursor: pointer;
+}
+
+/* hero Section */
+.hero{
+    background: linear-gradient(to right,#ffd4d3,#acacac,#fee3e2);
+    
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.hero-content h1{
+    font-size: 3.5em;
+    margin-bottom: 1rem;
+    text-shadow: 5px 10px 4px rgb(0, 0, 0, 0.3);
+}
+
+.hero-content p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 300px;
+    
+}
+
+.cta-button{
+    background: white;
+    color: navy;
+    padding: 1rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+.cta-button:hover{
+   transform: translateY(-3px);
+   box-shadow: 5 5px 15px rgba(0,0,0,0.3);
+   background-color: navajowhite;
+}
+
+.service{
+    padding: 5rem 0;
+    background: linear-gradient(to right,#fee3e2,white,#acacac
+    );
+}
+
+.service h1{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: navy;
+    text-align: center;
+    
+}
+
+
+.offer{
+    border: navajowhite;
+    background-color: white;
+    padding: 15px;
+    width: 50%;
+    display: grid;
+}
+.offer button{
+    padding: 10px;
+    background-color: navajowhite;
+    border-radius: 10px;
+    border: none;
+    color: navy;
+    font-weight: bold;
+    cursor: pointer;
+    width: 50%;
+}
+
+.offer button:hover{
+    background-color: whitesmoke;
+    transition: 1s;
+    
+}
+
+.service-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.about h1{
+    text-align: center;
+    margin: 20px;
+    color: navy;
+}
+
+.about p{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+    margin: 20px;
+}
+.about-pic{
+    justify-content: center;
+    width: 50%;
+    border-radius: 20px;
+    
+}
+
+.contact{
+    background: linear-gradient(to right, #b2d6d6, white);
+    padding: 2cqw;
+
+}
+
+.contact h1{
+    color: navy;
+    text-align: center;
+
+}
+
+.contact p{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 20px;
+
+}
+
+.review{
+    margin-top: 10px;
+    padding: 5rem 0;
+    background: linear-gradient(to right,#fee3e2,white,#acacac
+    );
+
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    background: #b2d6d6;
+    font-weight: bold;
+}
